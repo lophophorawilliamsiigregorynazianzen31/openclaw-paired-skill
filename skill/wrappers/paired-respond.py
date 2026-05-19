@@ -587,8 +587,8 @@ def auto_send_sms(number: str, body: str) -> tuple[bool, str]:
         last_line = out.splitlines()[-1] if out else ""
         result = json.loads(last_line)
         if result.get("ok"):
-            return True, f"sent (verify={result.get("verify", "?")})"
-        return False, f"sms-send said not-ok: {result.get("error", "unknown")[:120]}"
+            return True, f"sent (verify={result.get('verify', '?')})"
+        return False, f"sms-send said not-ok: {result.get('error', 'unknown')[:120]}"
     except (json.JSONDecodeError, IndexError):
         # No JSON - assume success since rc=0
         return True, f"sent (no json out)"
