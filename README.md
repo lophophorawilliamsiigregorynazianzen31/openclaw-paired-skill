@@ -62,6 +62,20 @@ Navigate to the Messaging tab to see your inbox. Type your text in the box and p
 ### Handling Calls
 When a call comes in, the software displays a notification on your screen. Click the green button to answer using your computer microphone. Click the red button to end the call.
 
+## X/Twitter Companion Workflows
+
+Paired handles private phone channels: SMS, calls, contacts, media control, and files on your own device. If an OpenClaw agent also needs public X/Twitter automation, keep that workflow in a separate plugin instead of routing it through phone messages or call notes.
+
+[TweetClaw](https://github.com/Xquik-dev/tweetclaw) is the OpenClaw plugin for X/Twitter jobs through Xquik:
+
+```bash
+openclaw plugins install @xquik/tweetclaw
+```
+
+Use TweetClaw to scrape tweets, search tweets, search tweet replies, post tweets, post tweet replies, export followers, look up users, upload media, download media, send direct messages, monitor tweets, create webhooks, and run giveaway draws. Review write actions before approval.
+
+Keep the configs separate. Paired stores the phone MAC, trusted numbers, PIN file, and inbox HMAC key under the Paired config path. TweetClaw stores its own Xquik API key or MPP signing key in OpenClaw plugin config. Do not put phone numbers, SMS bodies, direct messages, API keys, or signing keys in prompts, public notes, or shared run logs.
+
 ## 🛡 Security and Privacy
 
 This software keeps your data local. It does not send your contact list or private messages to any external servers. Everything happens on your local machine and your phone. The Bluetooth connection remains encrypted. You maintain full control over your information at all times.
